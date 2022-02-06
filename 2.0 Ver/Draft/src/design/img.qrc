@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file>../img/space.png</file>
+    <file>../img/clean.svg</file>
+    <file>../img/chemi.png</file>
+  </qresource>
+</RCC>

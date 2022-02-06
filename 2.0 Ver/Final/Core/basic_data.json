@@ -1,0 +1,70 @@
+{
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34",
+  "Cloud": {
+    "Src": "https://music.163.com/weapi/cloudsearch/get/web?csrf_token=",
+    "Download": "http://music.163.com/song/media/outer/url?id=.mp3",
+    "Scrapy": {
+      "s": "",
+      "type": 1,
+      "offset": 0,
+      "limit": 30
+    }
+  },
+  "Kugou": {
+    "Src": "https://complexsearch.kugou.com/v2/search/song",
+    "Download": "https://wwwapi.kugou.com/yy/index.php",
+    "Scrapy": {
+      "bitrate": 0,
+      "callback": "callback123",
+      "clienttime": 1637634001307,
+      "clientver": 2000,
+      "dfid": "-",
+      "inputtype": 0,
+      "iscorrection": 1,
+      "isfuzzy": 0,
+      "keyword": "",
+      "mid": 1637634001307,
+      "page": 1,
+      "pagesize": 30,
+      "platform": "WebFilter",
+      "privilege_filter": 0,
+      "srcappid": 2919,
+      "tag": "em",
+      "userid": 0,
+      "uuid": 1637634001307,
+      "signature": "",
+      "fix": "NVPh5oo715z5DIWAeQlhMDsWXXQV4hwt"
+    },
+    "GetMusic": {
+      "r": "play/getdata",
+      "callback": "jQuery19109397912087102853_1637634001306",
+      "hash": "",
+      "dfid": "0R8XVt1hJftq198uQR3RZ4oW",
+      "appid": "1014",
+      "mid": "dabf5d52689c33384e7d2b9e688c2353",
+      "platid": "4",
+      "album_id": "",
+      "_": "1637634001307"
+    }
+  },
+  "Kuwo": {
+    "Src": "https://www.kuwo.cn/api/www/search/searchMusicBykeyWord",
+    "Download": "http://www.kuwo.cn/api/v1/www/music/playUrl",
+    "Header": {
+      "Cookie": "kw_token=PMN2GUPGZH",
+      "csrf": "PMN2GUPGZH"
+    },
+    "Scrapy": {
+      "rn": "30",
+      "httpStatus": "1",
+      "reqID": "2fb036f1-50ab-11ec-b81e-fb5d7bbf2e6f",
+      "pn":1
+    },
+    "GetMusic": {
+      "mid": "",
+      "type": "music",
+      "httpsStatus": 1,
+      "reqId": "96a6f7d1-76d1-11ec-95b8-cd21f24463b6"
+    }
+  }
+}

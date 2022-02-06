@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>875</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font/>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="Profile_Bkg" name="widget_1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-left-radius:20px;</string>
+    </property>
+   </widget>
+   <widget class="Profile_Image" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>46</x>
+      <y>146</y>
+      <width>108</width>
+      <height>108</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="MainBKG" name="widget_6" native="true">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>425</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="Search_Options" name="widget_7" native="true">
+    <property name="geometry">
+     <rect>
+      <x>625</x>
+      <y>0</y>
+      <width>250</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-right-radius:20px;
+border-bottom-right-radius:20px;</string>
+    </property>
+   </widget>
+   <widget class="FuncBtn" name="widget_9" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>200</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget_9{
+border-bottom-left-radius:20px;
+}</string>
+    </property>
+   </widget>
+   <zorder>widget_6</zorder>
+   <zorder>widget_9</zorder>
+   <zorder>widget_1</zorder>
+   <zorder>widget_3</zorder>
+   <zorder>widget_7</zorder>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Profile_Image</class>
+   <extends>QWidget</extends>
+   <header>Profile</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MainBKG</class>
+   <extends>QWidget</extends>
+   <header>Mainbkg</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Profile_Bkg</class>
+   <extends>QWidget</extends>
+   <header>Profile</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Search_Options</class>
+   <extends>QWidget</extends>
+   <header>Search</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FuncBtn</class>
+   <extends>QWidget</extends>
+   <header>FuncBtn</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
